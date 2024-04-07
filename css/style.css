@@ -150,7 +150,7 @@ h1 {
 .pos-absolute-right {
     position: absolute;
     width: 750px;
-    right: -1000px;
+    left: 770px;
     opacity: 0.3;
 }
 .cathedral {
