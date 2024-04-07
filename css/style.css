@@ -56,6 +56,7 @@ h1 {
 #explore-btn:hover {
     animation: swing 1s ease;
     animation-iteration-count: infinite;
+    border: solid 3px #d92629;
     }
 @keyframes swing {
     15% {
@@ -77,6 +78,12 @@ h1 {
     transform: translateX(0);
     }
 }
+.about-items:target {
+    display: flex;
+}
+.a-history:target {
+    display: block;
+}
 .fa-circle-arrow-right {
     padding-left: 5px;
 }
@@ -92,8 +99,7 @@ h1 {
 }
 /* ABOUT AND HISTORY CSS */
 .about-container {
-    margin-top: 40px;
-    padding-top: 80px;
+    margin: 0;
 }
 .about-content {
     width: 1100px;
@@ -110,7 +116,7 @@ h1 {
     margin: 0;
 }
 .about-items {
-    display: flex;
+    display: none;
     flex-wrap: wrap;
     align-items: center;
     margin-top: 50px;
@@ -118,11 +124,16 @@ h1 {
     padding-top: 70px;
 }
 .items {
+    position: relative;
     width: 45%;
     box-sizing: border-box;
     padding: 30px;
     text-align: left;
     margin: 0;
+}
+.a-history {
+    display: none;
+    padding-top: 80px;
 }
 .middle {
     display: flex;
@@ -146,7 +157,7 @@ h1 {
     position: absolute;
     width: 435px; height: 270px;
     z-index: 6;
-    top: 2840px;
+    top: -103px;
 }
 /* NAV CSS */
 nav {
