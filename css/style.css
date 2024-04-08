@@ -590,3 +590,14 @@ textarea {
 .fa-angles-up {
     color: #272a8b;
 }
+footer {
+    background-color: #ffffff;
+    font-weight: bold;
+    padding: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    letter-spacing: 1px;
+    font-size: 17px;
+    margin-top: 20px;
+}
